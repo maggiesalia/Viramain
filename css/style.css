@@ -129,6 +129,7 @@
 .tree-divs{
     color:black;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;    
     /* width: 100%; */
 }
@@ -152,6 +153,10 @@
 .tree-divs-div-text-wrapper .main-title-sm{
     margin:16px 0;
 }
+.element{
+    display: none;
+}
+
 .news .read-moree .read-more{
     border-color:rgb(184, 184, 184);
 }
